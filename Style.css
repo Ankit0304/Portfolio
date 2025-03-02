@@ -390,7 +390,7 @@ article p {
 .progress {
     background: #f5fbfa;
     border-radius: 10px;
-    width: 200px;
+    width: 150px;
     height: 15px;
     position: relative;
     overflow: hidden;
@@ -434,7 +434,45 @@ article p {
     border-color: rgb(163, 163, 163);
   }
   
+/* Existing code... */
 
+/* Existing code... */
+
+.certificates-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.certificate-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.certificate-img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.certificate-item h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.certificate-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Existing code... */
 
 
 
